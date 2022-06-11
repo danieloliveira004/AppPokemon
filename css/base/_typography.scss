@@ -1,0 +1,52 @@
+@function rem($px) {
+    @return $px / 16 + rem;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+// WEIGHT
+.bold {
+    font-weight: bold;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+// FONTS
+.font100 {
+    font-size: rem(100);
+}
+
+.font32 {
+    font-size: rem(32);
+}
+
+.font26 {
+    font-size: rem(26);
+}
+
+.font16 {
+    font-size: rem(16);
+}
+
+.font12 {
+    font-size: rem(12);
+}
+
+// AJUSTES NO BOOTSTRAP
+h1 {
+    margin-bottom: .4rem;
+}
+
+p {
+    line-height: rem(19);
+}
